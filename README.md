@@ -14,11 +14,11 @@ And you'll get a single instance of the GUI to move around a group of joints.
 
 Or:
 
- rosrun rqt_gui rqt_gui
+    rosrun rqt_gui rqt_gui
 
 And going to Plugins > Robot Tools > Joint trajectory controller you can add as many as you may fit in your screen.
 
-(Note that you may need to do rosrun rqt_gui rqt_gui --force-discover once in order to see the plugin).
+(Note that you may need to do rosrun `rqt_gui rqt_gui --force-discover` once in order to see the plugin).
 
 # joint_states_group_grabber.py
 
